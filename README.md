@@ -5,7 +5,7 @@
   </a> -->
 </p>
 <h1 align="center">
-  Multiple 3d model component for Gatsbyjs using React-Three-Fiber
+  Multiple 3D model component for Gatsbyjs using React-Three-Fiber
 </h1>
 
 <!-- 
