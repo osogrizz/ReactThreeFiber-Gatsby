@@ -19,6 +19,7 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+
 article,
 aside,
 details,
@@ -34,7 +35,7 @@ summary {
   display: block;
 }
 audio,
-canvas,
+/* canvas, */
 progress,
 video {
   display: inline-block;
