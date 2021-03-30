@@ -20,6 +20,11 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
+canvas {
+  width: 600px;
+  height: 600px;
+}
+
 article,
 aside,
 details,
@@ -35,7 +40,7 @@ summary {
   display: block;
 }
 audio,
-/* canvas, */
+
 progress,
 video {
   display: inline-block;
