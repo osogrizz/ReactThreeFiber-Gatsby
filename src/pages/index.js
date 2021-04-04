@@ -17,7 +17,7 @@ const IndexPage = () => (
     <h1>hello world</h1>
     <div style={{ display: `flex`, flexWrap: `wrap`, gap: `20px`, justifyContent: `space-around` }} >
 
-      <Canvas className="display-box " camera={{ position: [0, 0, 5] }} style={{ width: `600px`, height: `600px`, background: `black` }}>
+      <Canvas className="display-box " camera={{ position: [0, 0, 5] }} style={{ width: `600px`, height: `auto`, background: `black` }}>
         <ambientLight intensity={0.5} />
         <spotLight intensity={0.3} position={[5, 20, 20]} />
         <Suspense fallback={null}>
@@ -29,7 +29,7 @@ const IndexPage = () => (
       </Canvas>
 
 
-      <Canvas className="display-box black-box" style={{ width: `600px`, height: `600px`, background: `black` }}>
+      <Canvas className="display-box black-box" style={{ width: `600px`, height: `auto`, background: `black` }}>
         {/* <ambientLight intensity={0.5} /> */}
         <Suspense fallback={null}>
           <Galaxy />
@@ -50,7 +50,7 @@ const IndexPage = () => (
         </Suspense>
       </Canvas>
 
-      <Canvas className="display-box " camera={{ position: [0, 0, 5] }} style={{ width: `600px`, height: `600px`, background: `#000` }}>
+      <Canvas className="display-box " camera={{ position: [0, 0, 5] }} style={{ width: `600px`, height: `auto`, background: `#000` }}>
         <ambientLight intensity={0.3} />
         <spotLight intensity={2} position={[10, 5, 5]} args={[`#fff`]} />
         <spotLight intensity={2} position={[-130, -50, -100]} args={[`#fff`]} />
