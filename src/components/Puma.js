@@ -15,7 +15,7 @@ export default function Model(props) {
   return (
     <group ref={group} {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
-        <group position={[0, 48.6, 109.78]} rotation={[1.58, 0, 0]}>
+        <group position={[-5, 6, 1]} rotation={[1.58, 0, 0]} scale={[0.04, 0.04, 0.04]}>
           <group rotation={[Math.PI / 2, 0, 0]}>
             <mesh material={materials['Scene_-_Root']} geometry={nodes.mesh_0.geometry} />
             <mesh material={materials['Scene_-_Root']} geometry={nodes.mesh_1.geometry} />

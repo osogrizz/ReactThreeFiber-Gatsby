@@ -14,7 +14,7 @@ export default function Model(props) {
   const { nodes, materials } = useGLTF('/king_tut/scene.gltf')
   return (
     <group ref={group} {...props} dispose={null}>
-      <group rotation={[-Math.PI / 2, 0, 0]}>
+      <group rotation={[-Math.PI / 2, 0, 0]} scale={[0.18, 0.18, 0.18]}>
         <lineSegments material={materials.Material_0} geometry={nodes.mesh_0.geometry} />
         <mesh material={materials.Material_0} geometry={nodes.mesh_1.geometry} />
         <mesh material={materials.Material_0} geometry={nodes.mesh_2.geometry} />
